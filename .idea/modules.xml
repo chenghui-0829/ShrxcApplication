@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExpandDemo/ExpandDemo.iml" filepath="$PROJECT_DIR$/ExpandDemo/ExpandDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetPrinter/NetPrinter.iml" filepath="$PROJECT_DIR$/NetPrinter/NetPrinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScApp/ScApp.iml" filepath="$PROJECT_DIR$/ScApp/ScApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShrxcApplication.iml" filepath="$PROJECT_DIR$/ShrxcApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
+    </modules>
+  </component>
+</project>

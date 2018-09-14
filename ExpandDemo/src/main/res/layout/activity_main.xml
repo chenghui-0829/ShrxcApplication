@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.ch.expand.MyCheckLinearLayout
+        android:id="@+id/jz_spf_elv_child_s_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app_gray_stroke_color"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[15]"
+                android:textColor="@color/app_text_color_999999"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="西雅图"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="胜1.75"
+            android:textColor="@color/app_text_color_999999"
+            android:textSize="14dp" />
+    </com.ch.expand.MyCheckLinearLayout>
+
+
+    <ExpandableListView
+        android:id="@+id/eList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:groupIndicator="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:visibility="visible" />
+</LinearLayout>

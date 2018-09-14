@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white_color_ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周六001" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="英超" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="08:12截止" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分析"
+                    android:textColor="@color/app_red_color_f53141" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="主[15]"
+                        android:textColor="@color/app_text_color_999999"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="西雅图"
+                        android:textColor="@color/app_text_color_333333"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="VS"
+                        android:textColor="@color/app_text_color_999999"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:text="达拉斯"
+                        android:textColor="@color/app_text_color_333333"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="[4]"
+                        android:textColor="@color/app_text_color_999999"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/jl_dgtz_elv_child_qbxx_text"
+                        android:layout_width="28dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/jz_qbxx_bg"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="全部选项"
+                        android:textColor="@color/app_white_color_ffffff"
+                        android:textSize="12dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toLeftOf="@id/jl_dgtz_elv_child_qbxx_text"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:background="@color/app_red_color_ff666e"
+                                android:gravity="center"
+                                android:paddingLeft="4dp"
+                                android:paddingRight="4dp"
+                                android:text="让分"
+                                android:textColor="@color/app_white_color_ffffff"
+                                android:textSize="10dp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:background="@color/app_green_color_2febbc"
+                                android:gravity="center"
+                                android:paddingLeft="4dp"
+                                android:paddingRight="4dp"
+                                android:text="大小分"
+                                android:textColor="@color/app_white_color_ffffff"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@color/app_line_color_e6e6e6"
+                            android:columnCount="1"
+                            android:paddingBottom="0.5dp"
+                            android:paddingTop="0.5dp"
+                            android:rowCount="2">
+
+                            <LinearLayout
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="fill"
+                                android:layout_rowWeight="1"
+                                android:background="@color/app_white_color_ffffff"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="该玩法未开单关"
+                                    android:textColor="@color/app_text_color_999999"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_columnWeight="1"
+                                android:layout_gravity="fill"
+                                android:layout_marginTop="0.5dp"
+                                android:layout_rowWeight="1"
+                                android:background="@color/app_white_color_ffffff"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="该玩法未开单关"
+                                    android:textColor="@color/app_text_color_999999"
+                                    android:textSize="14dp" />
+                            </LinearLayout>
+                        </GridLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

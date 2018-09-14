@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_white_color_ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/jz_spf_elv_child_fx_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="周六001"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="英超"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:12截止"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:drawableRight="@mipmap/app_down_red_arrow_icon"
+                android:gravity="center_vertical"
+                android:text="分析"
+                android:textColor="@color/app_red_color_f53141"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/jz_spf_elv_child_bf_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.ch.expand.MyCheckLinearLayout
+                android:id="@+id/jz_spf_elv_child_s_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/app_gray_stroke_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="[15]"
+                        android:textColor="@color/app_text_color_999999"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="西雅图"
+                        android:textColor="@color/app_text_color_333333"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="胜1.75"
+                    android:textColor="@color/app_text_color_999999"
+                    android:textSize="14dp" />
+            </com.ch.expand.MyCheckLinearLayout>
+
+            <com.ch.expand.MyCheckLinearLayout
+                android:id="@+id/jz_spf_elv_child_p_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/app_gray_stroke_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VS"
+                    android:textColor="@color/app_text_color_333333"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="平1.75"
+                    android:textColor="@color/app_text_color_999999"
+                    android:textSize="14dp" />
+            </com.ch.expand.MyCheckLinearLayout>
+
+            <com.ch.expand.MyCheckLinearLayout
+                android:id="@+id/jz_spf_elv_child_f_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/app_gray_stroke_color"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="蓝十字"
+                        android:textColor="@color/app_text_color_333333"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="[15]"
+                        android:textColor="@color/app_text_color_999999"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="胜1.75"
+                    android:textColor="@color/app_text_color_999999"
+                    android:textSize="14dp" />
+            </com.ch.expand.MyCheckLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

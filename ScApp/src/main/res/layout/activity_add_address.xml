@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white_color_ffffff"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.shrxc.sc.app.dntz.AddAddressActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/app_title_bg">
+
+        <ImageView
+            android:id="@+id/dlk3_activity_back_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="12dp"
+            android:src="@mipmap/app_back_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="新增收件地址"
+            android:textColor="@color/app_white_color_ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="收货地址:"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+
+            <RelativeLayout
+                android:id="@+id/add_address_activity_selelct_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合生财富广场906" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/app_right_arrow_icon" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_line_color_e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="门牌号:"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:text="合生财富广场906"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_line_color_e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="联系人:"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="张三"
+                    android:textColor="@color/app_text_color_333333"
+                    android:textSize="14dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/app_line_color_e6e6e6" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="先生"
+                        android:textColor="@color/app_text_color_333333"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_line_color_e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="手机号:"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:text="13585425784"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_line_color_e6e6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="标签:"
+                android:textColor="@color/app_text_color_333333"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/app_gray_stroke_color"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:text="家"
+                    android:textColor="@color/app_text_color_333333"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/app_gray_stroke_color"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:text="公司"
+                    android:textColor="@color/app_text_color_333333"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/app_gray_stroke_color"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="3dp"
+                    android:text="学校"
+                    android:textColor="@color/app_text_color_333333"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/app_line_color_e6e6e6" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/app_red_color_fa3243"
+            android:text="保存地址"
+            android:textColor="@color/app_white_color_ffffff"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>
